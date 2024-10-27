@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .bg-blur {
+    backdrop-filter: blur(8px);
+  }
+}
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 100px; 
+}
+body {
+  font-family: 'Inter', sans-serif;
+}
+.scroll-mt-20 {
+  scroll-margin-top: 5rem;
+}
+.scroll-margin {
+  scroll-margin-top: 100px; 
+}

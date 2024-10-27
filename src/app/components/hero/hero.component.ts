@@ -45,7 +45,12 @@ import { trigger, transition, style, animate } from '@angular/animations';
               [style.animation-fill-mode]="'forwards'"
             >
               <button class="group bg-primary text-white px-8 py-3 rounded-md hover:bg-primary/90 transition-all duration-300 transform hover:-translate-y-0.5 hover:shadow-lg flex items-center justify-center space-x-2">
-                <span>Get Started</span>
+              <a 
+  href="#features" 
+  style="text-decoration: none; color: inherit;"
+>
+  <span>Get Started</span>
+</a>
                 <svg 
                   class="w-5 h-5 group-hover:translate-x-1 transition-transform duration-300" 
                   fill="none" 
@@ -61,7 +66,13 @@ import { trigger, transition, style, animate } from '@angular/animations';
                 </svg>
               </button>
               <button class="group border-2 border-primary text-primary px-8 py-3 rounded-md hover:bg-primary/10 transition-all duration-300 flex items-center justify-center space-x-2">
-                <span>Contact Us</span>
+              <a 
+  href="#contact" 
+  style="text-decoration: none; color: inherit;"
+>
+  <span>Contact Us</span>
+</a>
+
                 <svg 
                   class="w-5 h-5 group-hover:translate-x-1 transition-transform duration-300" 
                   fill="none" 

@@ -9,6 +9,10 @@ export class SearchService {
   searchQuery$ = this.searchQuerySubject.asObservable(); 
 
   updateSearchQuery(query: string) {
-    this.searchQuerySubject.next(query);
+    this.searchQuerySubject.next(query.toLowerCase()); 
+  }
+
+  clearSearchQuery() {
+    this.searchQuerySubject.next('');
   }
 }

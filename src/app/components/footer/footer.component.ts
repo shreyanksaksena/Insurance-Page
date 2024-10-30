@@ -49,23 +49,26 @@ import { FormsModule } from '@angular/forms';
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis placerat arcu nibh sed placerat elementum. Urna eu et purus et mi sit rhoncus.
         </p>
         
-        <div class="flex max-w-2xl mx-auto">
+        <form (submit)="subscribe()" class="flex max-w-2xl mx-auto">
           <input 
             type="email" 
             placeholder="Email address" 
             class="flex-1 px-6 py-4 bg-gray-100 rounded-l-md focus:outline-none focus:ring-2 focus:ring-primary text-lg"
             [(ngModel)]="email"
+            name="email"
+            aria-label="Email address for newsletter"
+            required
           />
           <button 
+            type="submit"
             class="bg-primary text-white px-10 py-4 rounded-r-md hover:bg-primary/90 transition-colors flex items-center space-x-3"
-            (click)="subscribe()"
           >
             <span class="text-lg">Subscribe</span>
-            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"/>
             </svg>
           </button>
-        </div>
+        </form>
       </div>
     </section>
 
@@ -81,7 +84,13 @@ import { FormsModule } from '@angular/forms';
               </p>
               <p class="flex items-start space-x-4">
                 <span class="text-gray-600 font-medium">Contact:</span>
-                <span class="text-gray-500">+9 5555559909</span>
+                <a 
+                  href="tel:+95555559909" 
+                  class="text-gray-500 hover:text-primary transition-colors"
+                  aria-label="Call us at +9 5555559909"
+                >
+                  +9 5555559909
+                </a>
               </p>
               <p class="flex items-start space-x-4">
                 <span class="text-gray-600 font-medium">Time:</span>
@@ -89,7 +98,13 @@ import { FormsModule } from '@angular/forms';
               </p>
               <p class="flex items-start space-x-4">
                 <span class="text-gray-600 font-medium">Email:</span>
-                <span class="text-gray-500">youme&#64;example.com</span>
+                <a 
+                  href="mailto:youme@example.com" 
+                  class="text-gray-500 hover:text-primary transition-colors"
+                  aria-label="Email us at youme@example.com"
+                >
+                youme&#64;example.com
+                </a>
               </p>
             </div>
           </div>

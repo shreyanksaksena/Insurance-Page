@@ -13,13 +13,13 @@ import { CommonModule } from '@angular/common';
         <div class="absolute -z-10 -top-10 -left-10 w-[110%] h-[110%] bg-[#F5FFFE] rounded-3xl"></div>
         <div class="relative z-10 rounded-3xl overflow-hidden shadow-2xl transform hover:scale-[1.05] transition-all duration-300 max-w-full lg:max-w-3xl">
           <img 
-            src="assets/5 img.png" 
+            src="./assets/5 img.png" 
             alt="Happy Family" 
             class="w-full h-auto rounded-3xl hover:scale-110 transition-transform duration-500"
           />
         </div>
             <img 
-              src="assets/leaf.png" 
+              src="./assets/leaf.png" 
               alt="Decorative Leaf" 
               class="absolute -top-10 right-0 w-20 h-20 transform rotate-45 z-20 animate-float"
             />
@@ -40,7 +40,7 @@ import { CommonModule } from '@angular/common';
     <div class="flex items-center space-x-3">
       <div class="bg-[#F5FFFE] p-1.5 rounded-xl group-hover:bg-primary transition-colors duration-300">
         <img 
-          src="assets/double-tick.png" 
+          src="./assets/double-tick.png" 
           alt="Check" 
           class="w-6 h-6 group-hover:brightness-200 transition-all duration-300"
         />

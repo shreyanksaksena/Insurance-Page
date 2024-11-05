@@ -39,7 +39,7 @@ import { CommonModule } from '@angular/common';
               <div class="w-full md:w-[50%] lg:w-[40%] px-6 flex justify-center">
                 <div class="relative group rounded-2xl overflow-hidden max-w-3xl">
                   <img 
-                    src="assets/4 img1.png" 
+                    src="./assets/4 img1.png" 
                     alt="Business Insurance" 
                     class="w-full h-[500px] object-cover"
                   />
@@ -53,7 +53,7 @@ import { CommonModule } from '@angular/common';
               <div class="w-full md:w-[50%] lg:w-[40%] px-6 flex justify-center">
                 <div class="relative group rounded-2xl overflow-hidden max-w-3xl">
                   <img 
-                    src="assets/4 img2.png" 
+                    src="./assets/4 img2.png" 
                     alt="Vehicle Insurance" 
                     class="w-full h-[500px] object-cover"
                   />
@@ -67,7 +67,7 @@ import { CommonModule } from '@angular/common';
               <div class="w-full md:w-[50%] lg:w-[40%] px-6 flex justify-center">
                 <div class="relative group rounded-2xl overflow-hidden max-w-3xl">
                   <img 
-                    src="assets/4 img3.png" 
+                    src="./assets/4 img3.png" 
                     alt="Car Insurance" 
                     class="w-full h-[500px] object-cover"
                   />

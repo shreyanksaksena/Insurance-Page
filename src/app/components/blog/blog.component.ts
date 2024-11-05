@@ -27,7 +27,7 @@ interface BlogPost {
           <div class="group bg-white rounded-3xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300">
             <div class="relative overflow-hidden">
               <img 
-                src="assets/8 img1.png" 
+                src="./assets/8 img1.png" 
                 alt="Personal Liability Coverage" 
                 class="w-full h-[350px] object-cover transform group-hover:scale-105 transition-transform duration-500"
               />
@@ -55,7 +55,7 @@ interface BlogPost {
           <div class="group bg-white rounded-3xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300">
             <div class="relative overflow-hidden">
               <img 
-                src="assets/8 img2.png" 
+                src="./assets/8 img2.png" 
                 alt="Fire Insurance Coverage" 
                 class="w-full h-[350px] object-cover transform group-hover:scale-105 transition-transform duration-500"
               />
@@ -84,7 +84,7 @@ interface BlogPost {
           <div class="group bg-white rounded-3xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300">
             <div class="relative overflow-hidden">
               <img 
-                src="assets/8 img3.png" 
+                src="./assets/8 img3.png" 
                 alt="Ambulance Cover" 
                 class="w-full h-[350px] object-cover transform group-hover:scale-105 transition-transform duration-500"
               />

@@ -99,7 +99,7 @@ import { trigger, transition, style, animate } from '@angular/animations';
               <div class="absolute -inset-1 bg-gradient-to-r from-primary/20 via-[#F5FFFE] to-primary/20 rounded-lg blur opacity-75 group-hover:opacity-100 transition duration-300"></div>
               
               <img 
-                src="assets/hero-image.png" 
+                src="./assets/hero-image.png" 
                 alt="Father and daughter with stuffed bunny" 
                 class="relative w-full h-auto rounded-lg shadow-lg z-10 transform group-hover:scale-[1.01] transition-transform duration-300"
                 loading="lazy"
@@ -107,7 +107,7 @@ import { trigger, transition, style, animate } from '@angular/animations';
               
               <div class="absolute -bottom-8 -left-8 z-20">
                 <img 
-                  src="assets/leaf.png" 
+                  src="./assets/leaf.png" 
                   alt="Decorative leaf" 
                   class="w-16 h-16 animate-float filter drop-shadow-lg"
                 />

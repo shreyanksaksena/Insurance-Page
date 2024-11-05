@@ -29,13 +29,13 @@ import { FormsModule } from '@angular/forms';
       </div>
 
       <img 
-        src="assets/leaf.png" 
+        src="./assets/leaf.png" 
         alt="Decorative Leaf" 
         class="absolute left-32 top-1/2 -translate-y-1/2 w-20 opacity-20 transform -rotate-45"
       />
 
       <img 
-        src="assets/leaf.png" 
+        src="./assets/leaf.png" 
         alt="Decorative Leaf" 
         class="absolute right-32 top-1/2 -translate-y-1/2 w-20 opacity-20 transform rotate-45"
       />

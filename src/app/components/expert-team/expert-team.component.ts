@@ -73,22 +73,22 @@ interface TeamMember {
 export class ExpertTeamComponent {
   teamMembers: TeamMember[] = [
     {
-      image: 'assets/6 img1.png',
+      image: './assets/6 img1.png',
       name: 'Mesiva Sccot',
       position: 'Marketing Ex.'
     },
     {
-      image: 'assets/6 img2.png',
+      image: './assets/6 img2.png',
       name: 'Jeson Thomson',
       position: 'Marketing Ex.'
     },
     {
-      image: 'assets/6 img3.png',
+      image: './assets/6 img3.png',
       name: 'Kohn Wright',
       position: 'Marketing Ex.'
     },
     {
-      image: 'assets/6 img4.png',
+      image: './assets/6 img4.png',
       name: 'Andrew Schimke',
       position: 'Marketing Ex.'
     }

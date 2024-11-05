@@ -19,7 +19,7 @@ import { CommonModule } from '@angular/common';
           <div class="group p-8 bg-white rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 feature-card">
             <div class="mb-6 w-16 h-16">
               <img 
-                src="assets/2 icon1.png" 
+                src="./assets/2 icon1.png" 
                 alt="Money Back Guarantee" 
                 class="w-full h-full object-contain group-hover:scale-110 transition-transform duration-300"
               />
@@ -33,7 +33,7 @@ import { CommonModule } from '@angular/common';
           <div class="group p-8 bg-white rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 feature-card">
             <div class="mb-6 w-16 h-16">
               <img 
-                src="assets/2 icon2.png" 
+                src="./assets/2 icon2.png" 
                 alt="All Claims At Anytime" 
                 class="w-full h-full object-contain group-hover:scale-110 transition-transform duration-300"
               />
@@ -47,7 +47,7 @@ import { CommonModule } from '@angular/common';
           <div class="group p-8 bg-white rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 feature-card">
             <div class="mb-6 w-16 h-16">
               <img 
-                src="assets/2 icon3.png" 
+                src="./assets/2 icon3.png" 
                 alt="Digital Insurance Policy" 
                 class="w-full h-full object-contain group-hover:scale-110 transition-transform duration-300"
               />
@@ -61,7 +61,7 @@ import { CommonModule } from '@angular/common';
           <div class="group p-8 bg-white rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 feature-card">
             <div class="mb-6 w-16 h-16">
               <img 
-                src="assets/2 icon4.png" 
+                src="./assets/2 icon4.png" 
                 alt="Direct Payment App" 
                 class="w-full h-full object-contain group-hover:scale-110 transition-transform duration-300"
               />

@@ -22,7 +22,7 @@ import { CommonModule } from '@angular/common';
                 <div class="w-28 h-28 bg-[#F5FFFE] rounded-full flex items-center justify-center flex-shrink-0 
                             group-hover:bg-primary transition-colors duration-300">
                   <img 
-                    src="assets/3 icon1.png" 
+                    src="./assets/3 icon1.png" 
                     alt="Trusted Icon" 
                     class="w-16 h-16 object-contain group-hover:brightness-200 transition-all duration-300"
                   />
@@ -43,7 +43,7 @@ import { CommonModule } from '@angular/common';
                 <div class="w-28 h-28 bg-[#F5FFFE] rounded-full flex items-center justify-center flex-shrink-0 
                             group-hover:bg-primary transition-colors duration-300">
                   <img 
-                    src="assets/3 icon2.png" 
+                    src="./assets/3 icon2.png" 
                     alt="Set For Life Icon" 
                     class="w-16 h-16 object-contain group-hover:brightness-200 transition-all duration-300"
                   />
@@ -64,7 +64,7 @@ import { CommonModule } from '@angular/common';
                 <div class="w-28 h-28 bg-[#F5FFFE] rounded-full flex items-center justify-center flex-shrink-0 
                             group-hover:bg-primary transition-colors duration-300">
                   <img 
-                    src="assets/3 icon3.png" 
+                    src="./assets/3 icon3.png" 
                     alt="Protective Insurance Icon" 
                     class="w-16 h-16 object-contain group-hover:brightness-200 transition-all duration-300"
                   />
@@ -84,7 +84,7 @@ import { CommonModule } from '@angular/common';
           <div class="relative grid grid-cols-2 gap-6 lg:gap-8 items-center justify-center">
             <div class="relative rounded-2xl overflow-hidden shadow-lg col-span-1">
               <img 
-                src="assets/3 img1.png" 
+                src="./assets/3 img1.png" 
                 alt="Parent and Baby" 
                 class="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
               />
@@ -92,7 +92,7 @@ import { CommonModule } from '@angular/common';
 
             <div class="relative rounded-2xl overflow-hidden shadow-lg col-span-1 row-span-2">
               <img 
-                src="assets/3 img2.png" 
+                src="./assets/3 img2.png" 
                 alt="Family Laughing" 
                 class="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
               />
@@ -100,7 +100,7 @@ import { CommonModule } from '@angular/common';
 
             <div class="relative rounded-2xl overflow-hidden shadow-lg col-span-2 lg:col-span-1 row-start-2">
               <img 
-                src="assets/3 img3.png" 
+                src="./assets/3 img3.png" 
                 alt="Driving" 
                 class="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
               />

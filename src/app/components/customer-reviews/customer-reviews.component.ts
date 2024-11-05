@@ -8,14 +8,14 @@ import { CommonModule } from '@angular/common';
   template: `
     <section class="py-24 md:py-36 bg-primary/90 relative overflow-hidden">
       <img 
-        src="assets/leaf.png" 
+        src="./assets/leaf.png" 
         alt="Decorative Leaf" 
         class="absolute top-10 right-10 w-24 h-24 transform rotate-45 opacity-20"
       />
       
       <div class="absolute bottom-10 right-10">
         <img 
-          src="assets/leaf.png" 
+          src="./assets/leaf.png" 
           alt="Decorative Pattern" 
           class="w-32 h-32 opacity-20"
         />
@@ -27,7 +27,7 @@ import { CommonModule } from '@angular/common';
             <div class="bg-white rounded-3xl p-12 shadow-lg hover:shadow-xl transition-all duration-300">
               <div class="flex items-start mb-6">
                 <div class="w-20 h-20 bg-primary/10 rounded-full flex items-center justify-center">
-                  <img src="assets/7 icon1.png" alt="Manika Selven" class="w-14 h-14 rounded-full"/>
+                  <img src="./assets/7 icon1.png" alt="Manika Selven" class="w-14 h-14 rounded-full"/>
                 </div>
               </div>
               <div class="flex items-start text-yellow-400 mb-6">
@@ -48,7 +48,7 @@ import { CommonModule } from '@angular/common';
             <div class="bg-white rounded-3xl p-12 shadow-lg hover:shadow-xl transition-all duration-300 lg:translate-x-2">
               <div class="flex items-start mb-6">
                 <div class="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center">
-                  <img src="assets/7 icon2.png" alt="Jhun Selven" class="w-14 h-14 rounded-full"/>
+                  <img src="./assets/7 icon2.png" alt="Jhun Selven" class="w-14 h-14 rounded-full"/>
                 </div>
               </div>
               <div class="flex items-start text-yellow-400 mb-6">
